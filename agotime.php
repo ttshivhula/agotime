@@ -1,3 +1,5 @@
+<?php
+
 //$times=date("l F jS, Y - g:ia", $time);
 function agotime($from_time, $include_seconds = true) {
     $to_time = time();
@@ -41,3 +43,6 @@ function agotime($from_time, $include_seconds = true) {
         return 'over ' . round(floatval($mindist) / 525600) . ' years';
     }
 }
+
+
+?>
