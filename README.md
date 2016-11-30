@@ -6,15 +6,17 @@ Please help improve this function.
 
 ###Usage
 
-```generate timestamps using time();
 ```
-```$time=1479314178;
-```
-```$time=time($time);
+$time=time();
+$time=1479314178;
+
+$time=time($time);
 ```
 Output
 
-```echo "Posted $time ago";
+```
+
+echo "Posted $time ago";
 ```
 
 Check example/index.php 
