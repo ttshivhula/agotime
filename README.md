@@ -4,19 +4,25 @@ This PHP function will help turn timestamps to ago time for example, 2 hours, 3 
 
 Please help improve this function.
 
-###Usage
+##Usage
 
 ```
+<?php
+include 'agotime.php';
 $time=time();
 $time=1479314178;
 
 $time=time($time);
+
+?>
 ```
-Output
+####Output
 
 ```
 
 echo "Posted $time ago";
 ```
-
+####For more on usage
+```
 Check example/index.php 
+```
