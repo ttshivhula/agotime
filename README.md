@@ -20,7 +20,7 @@ $time=time($time);
 
 ```
 
-echo "Posted $time ago";
+echo "Posted $time";
 ```
 ####For more on usage
 ```
