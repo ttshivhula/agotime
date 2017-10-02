@@ -9,10 +9,10 @@ Please help improve this function.
 ```
 <?php
 include 'agotime.php';
-$time=time();
-$time=1479314178;
+//Assuming that the number is the timestamp
+$time = 1479314178;
 
-$time=time($time);
+$time=agotime($time);
 
 ?>
 ```
